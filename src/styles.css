@@ -143,8 +143,74 @@
     border-color: var(--color-border);
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
+    font-family: 'Inter', system-ui, sans-serif;
+    font-feature-settings: 'ss01', 'cv11';
+  }
+
+  h1, h2, h3 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
   }
 }
+
+/* ===== Cereal letter rain animation ===== */
+@keyframes letter-fall {
+  0% {
+    transform: translateY(-110vh) rotate(var(--rot-start, -25deg));
+    opacity: 0;
+  }
+  8% { opacity: 1; }
+  70% {
+    transform: translateY(0) rotate(var(--rot-end, 8deg));
+  }
+  85% {
+    transform: translateY(-14px) rotate(calc(var(--rot-end, 8deg) * 0.4));
+  }
+  100% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+.cereal-letter {
+  display: inline-block;
+  opacity: 0;
+  animation: letter-fall 1.6s cubic-bezier(0.34, 1.4, 0.5, 1) forwards;
+  animation-delay: var(--delay, 0s);
+  will-change: transform, opacity;
+}
+
+@keyframes float-grain {
+  0%, 100% { transform: translateY(0) translateX(0); opacity: 0.35; }
+  50% { transform: translateY(-8px) translateX(4px); opacity: 0.6; }
+}
+
+.grain {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: var(--color-foreground);
+  animation: float-grain 4s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes blink-cursor {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+.cursor-blink { animation: blink-cursor 1s steps(1) infinite; }
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.fade-up { animation: fade-up 0.8s ease-out both; }
+
