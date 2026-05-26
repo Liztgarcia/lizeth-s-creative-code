@@ -39,15 +39,15 @@ export const projects: Project[] = [
     tags: ["ESP32", "PCB", "3D print"],
   },
   {
-    title: "LLM Regression Harness",
+    title: "Test Automation Dashboard",
     category: "Data & AI",
     description:
-      "Eval pipeline that catches silent regressions in LLM outputs across prompts, models and temperature. Pandas + pytest + a tiny dashboard.",
-    media: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80",
+      "Real-time monitoring dashboard for test execution, failure analysis, and trend reporting.",
+    media: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
     mediaType: "image",
     link: "https://github.com/liztgarcia",
     code: "https://github.com/liztgarcia",
-    tags: ["python", "LLM", "evals"],
+    tags: ["dashboard", "analytics", "QA"],
   },
   {
     title: "Playwright Test Suite Kit",
