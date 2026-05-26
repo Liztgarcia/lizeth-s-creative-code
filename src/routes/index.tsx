@@ -103,11 +103,13 @@ function Experience() {
       blurb:
         "The kind of QA hire teams quietly panic about losing. I own end-to-end functional, usability, regression, and cross-platform compatibility testing on products where a missed bug means real-world consequences.",
       bullets: [
-        "Architect test plans and test cases that have caught issues across software, firmware, and hardware combinations others called \"edge cases that won't happen.\" They happened.",
-        "Run regression and compatibility suites across multiple hardware platforms; my tracking is so tight defects rarely come back twice.",
-        "Translate fuzzy product requirements into concrete, repeatable test strategies — then automate the parts that shouldn't be a human's job.",
-        "Track, reproduce, and verify fixes with the development team. I write defect reports that devs actually thank me for.",
-        "Keep the test documentation that becomes the team's source of truth — onboarding, audits, and post-mortems all run faster because of it.",
+        "Perform functionality, usability, and regression testing of products — catching what others miss before it reaches a customer.",
+        "Test configuration and compatibility of software on multiple hardware platforms, ensuring the product works where users actually use it.",
+        "Contribute to the development and follow-up of test plans and materials that become the team's single source of truth.",
+        "Track, analyze, record, and verify all software functionality discrepancies and development corrections — nothing slips through.",
+        "Develop, perform, and document test procedures to verify problem fixes; if it's not documented, it's not done.",
+        "Maintain and update test documentation, including test cases and defect reports, keeping the team audit-ready and onboarding faster.",
+        "Report critical issues and work directly with development to resolve them — I don't just file bugs, I drive them to closure.",
       ],
     },
     {
