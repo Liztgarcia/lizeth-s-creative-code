@@ -39,15 +39,15 @@ export const projects: Project[] = [
     tags: ["ESP32", "PCB", "3D print"],
   },
   {
-    title: "Test Automation Dashboard",
+    title: "AI Test Case Generator",
     category: "Data & AI",
     description:
-      "Real-time monitoring dashboard for test execution, failure analysis, and trend reporting.",
+      "Machine learning model that generates test cases from requirements using NLP and pattern recognition.",
     media: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
     mediaType: "image",
-    link: "https://github.com/liztgarcia",
-    code: "https://github.com/liztgarcia",
-    tags: ["dashboard", "analytics", "QA"],
+    link: "https://github.com/Liztgarcia",
+    code: "https://github.com/Liztgarcia",
+    tags: ["NLP", "ML", "pattern recognition", "QA"],
   },
   {
     title: "Playwright Test Suite Kit",

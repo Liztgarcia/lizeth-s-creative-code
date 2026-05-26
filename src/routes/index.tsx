@@ -22,7 +22,7 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-const EMAIL = "lizeth@example.com";
+const EMAIL = "liz.garcia.m@proton.me";
 
 function Index() {
   return (
