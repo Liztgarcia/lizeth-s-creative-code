@@ -110,6 +110,18 @@ function Experience() {
         "Keep the test documentation that becomes the team's source of truth — onboarding, audits, and post-mortems all run faster because of it.",
       ],
     },
+    {
+      company: "Rotoplas",
+      role: "QA & Automation",
+      period: "Previous",
+      blurb:
+        "Worked across digital products for one of LATAM's largest water-solutions companies — building QA processes from the ground up and bringing automation into teams that had been shipping on manual checks alone.",
+      bullets: [
+        "Designed and executed manual + automated test suites for web and internal platforms, reducing regression cycles and catching issues before they hit production.",
+        "Introduced automation frameworks and CI integration, raising release confidence and freeing the team from repetitive manual runs.",
+        "Partnered with developers and product to define acceptance criteria, turning ambiguous tickets into testable, shippable work.",
+      ],
+    },
   ];
 
   return (
