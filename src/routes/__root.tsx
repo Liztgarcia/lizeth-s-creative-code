@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Lizeth Garcia porfolio QA & Creative Engineer" },
+      { name: "description", content: "Lizeth Garcia's professional portfolio showcases QA expertise, creative coding, and AI projects." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Lizeth Garcia porfolio QA & Creative Engineer" },
+      { property: "og:description", content: "Lizeth Garcia's professional portfolio showcases QA expertise, creative coding, and AI projects." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Lizeth Garcia porfolio QA & Creative Engineer" },
+      { name: "twitter:description", content: "Lizeth Garcia's professional portfolio showcases QA expertise, creative coding, and AI projects." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c35d1c5b-a72b-49fa-867e-26b9366f632f/id-preview-05de4aa3--a0c9eace-624b-4314-8a7b-d3dd8ba6f853.lovable.app-1779756580856.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c35d1c5b-a72b-49fa-867e-26b9366f632f/id-preview-05de4aa3--a0c9eace-624b-4314-8a7b-d3dd8ba6f853.lovable.app-1779756580856.png" },
     ],
     links: [
       {
