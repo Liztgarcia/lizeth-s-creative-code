@@ -59,24 +59,10 @@ export function ProjectsSection() {
                 <h3 className="text-2xl font-semibold leading-tight">{p.title}</h3>
                 <p className="text-sm leading-relaxed text-foreground/75">{p.description}</p>
                 <div className="mt-auto flex flex-wrap items-center gap-4 pt-2 text-sm">
-                  <a
-                    href={p.link}
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    className="font-medium underline-offset-4 hover:underline"
-                  >
-                    View project ↗
-                  </a>
-                  {p.code && (
-                    <a
-                      href={p.code}
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      className="font-mono text-xs text-foreground/70 hover:text-foreground"
-                    >
-                      &lt;code/&gt; ↗
-                    </a>
-                  )}
+                  <span className="inline-flex items-center gap-2 rounded-full border border-accent/40 bg-accent/10 px-3 py-1 font-mono text-[11px] uppercase tracking-widest text-accent">
+                    <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-accent" />
+                    Coming soon
+                  </span>
                 </div>
               </div>
             </article>
